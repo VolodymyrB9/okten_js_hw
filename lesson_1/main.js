@@ -66,5 +66,5 @@ let Name = prompt('enter your name');
 console.log(Name);
 let mName = prompt('enter your middle name');
 console.log(mName);
-let age = prompt('enter your age');
+let age = +prompt('enter your age');
 console.log(age);
