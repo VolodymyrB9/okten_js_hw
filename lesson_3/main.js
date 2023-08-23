@@ -106,19 +106,19 @@ let users = [
 // за допомоги циклу вивести:
 // - користувачів зі статусом true
 for (const user of users) {
-    if(user.status === true){
-       document.write(user.name);
+    if(user.status){
+       document.write(`<div>${user.name}</div>`);
     }
 }
 // - користувачів зі статусом false
 for (const user of users) {
-    if(user.status !== true){
-        document.write(user.name);
+    if(!user.status){
+        document.write(`<div>${user.name}</div>`);
     }
 }
 // - користувачів які старші за 30 років
 for (const user of users) {
     if (user.age > 30){
-        document.write(user.name)
+        document.write(`<div>${user.name}</div>`)
     }
 }
