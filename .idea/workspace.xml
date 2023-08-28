@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson_3">
+    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson 5">
+      <change afterPath="$PROJECT_DIR$/lesson_5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,6 +62,8 @@
       <workItem from="1692802325268" duration="2271000" />
       <workItem from="1692807209589" duration="2397000" />
       <workItem from="1692811589827" duration="128000" />
+      <workItem from="1692811735185" duration="39000" />
+      <workItem from="1693232821944" duration="5965000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -102,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692808979317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- refresh code">
+      <option name="closed" value="true" />
+      <created>1692811766812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692811766812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +135,8 @@
     <MESSAGE value="- complete hw" />
     <MESSAGE value="- add hw from lesson_2" />
     <MESSAGE value="- add hw from lesson_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson_3" />
+    <MESSAGE value="- refresh code" />
+    <MESSAGE value="- add hw from lesson 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson 5" />
   </component>
 </project>
