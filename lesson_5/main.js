@@ -1,129 +1,99 @@
-// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-function calcRectangle(a, b) {
-    return a * b
-}
-
-console.log(calcRectangle(2, 4));
-
+// ВСЕ ЗРОБИТИ СТРІЛОЧНИМИ ФУНКЦІЯМИ!
+//     - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+let calcArea = (a, b) => a * b;
+console.log(calcArea(2, 5));
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
-function calcCircle(r) {
-    return 3.14 * (r * r)
-}
-
-console.log(calcCircle(4));
-
+let calcAreaCircle = (r) => 3.14 * (r * r);
+console.log(calcAreaCircle(14));
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-function calcCylinder(r, h) {
-    return 2 * 3.14 * r * h
-}
-
-console.log(calcCylinder(3, 5));
-
+let calcCylinder = (r, h) => 2 * 3.14 * r * h;
+console.log(calcCylinder(2, 3));
 // - створити функцію яка приймає масив та виводить кожен його елемент
-function printArr(arr) {
-    for (const argument of arguments) {
-        console.log(argument);
+const Arr = [1, 2, 3, 4, 5];
+let printArr = (Arr) => {
+    for (let element of Arr) {
+        console.log(element);
     }
 }
-
-const Arr = [1, 2, 3, 4, 5];
 printArr(Arr);
-
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-function createParagraph(arguments) {
-    return document.write(`<p>${arguments}</p>`)
-}
-
-createParagraph('hello world')
-
+let createParagraph = (string) => document.write(`<p>${string}</p>`);
+createParagraph('Hi user');
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
-function createUl(arguments) {
-    return document.write(`<ul>
-                                <li>${arguments}
-                                <li>${arguments}
-                                <li>${arguments}
-                           </ul>`);
+let createUl = (text) => {
+    document.write(`<ul>`)
+    for (let i = 0; i < 3; i++) {
+        document.write(`<li>${text}`);
+    }
+    document.write(`</ul>`)
 }
-
-createUl('milk');
+createUl('product');
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-function createLi(arguments, itemCount) {
-    document.write('<ul>')
-    for (let i = 0; i < itemCount; i++) {
-        document.write(`<li>${arguments}</li>`);
+let creatUl2 = (text, count) => {
+    document.write(`<ul>`)
+    for (let i = 0; i < count; i++) {
+        document.write(`<li>${text}`)
     }
-    document.write('</ul>')
-}
-
-createLi('milk', 5);
-
+    document.write(`</ul>`)
+};
+creatUl2('milk', 4);
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-function createListFromArray(...arr) {
-    document.write('<ul>')
-    for (let item of arr) {
-        document.write(`<li>${item}</li>`);
+let primitiveToArray = (array) => {
+    document.write(`<ol>`)
+    for (const item of array) {
+        document.write(`<li>${item}`)
     }
-    document.write('</ul>')
+    document.write(`</ol>`);
 }
-
-createListFromArray(1, 3, true, 'asd', 4, 5)
-
+primitiveToArray([1, 3, 5, true, 'stir'])
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-function displayObjectsWithDocumentWrite(objects) {
-    for (const obj of objects) {
-        document.write("<div>");
-        document.write(`<p>ID: ${obj.id}</p>`);
-        document.write(`<p>Name: ${obj.name}</p>`);
-        document.write(`<p>Age: ${obj.age}</p>`);
-        document.write("</div>");
+const Obj = [
+    {id: 1, name: 'vasya', age: 33},
+    {id: 2, name: 'ann', age: 31},
+    {id: 3, name: 'vova', age: 29}
+];
+let objToPage = (obj) => {
+    for (let item of obj) {
+        document.write(`<div>${'id: ' + item.id + ' name: ' + item.name + ' age: ' + item.age}</div>`)
     }
 }
-
-const myObjects = [
-    {id: 1, name: "John", age: 30},
-    {id: 2, name: "Alice", age: 25},
-    {id: 3, name: "Bob", age: 40}
-]; // Замініть на ваш масив об'єктів
-displayObjectsWithDocumentWrite(myObjects);
+objToPage(Obj);
 // - створити функцію яка повертає найменьше число з масиву
-let arrayOfNumber = [1, 2, 3, 4, 5, 6]
-
-function printSmallestNumber(arr) {
-    let min = arr[0];
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < min) {
-            min = arr[i];
+const ArrayOfNumbers = [3, 5, 6, 1, 8, -2, -121];
+let findMinNumber = (array) => {
+    let min = array[0];
+    for (let item of array) {
+        if (item < min) {
+            min = item;
         }
     }
     return min;
 }
-
-console.log(printSmallestNumber(arrayOfNumber));
+console.log(findMinNumber(ArrayOfNumbers));
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
-let numbers = [1,2,10]
-function sum() {
-    let total = 0;
-    for (const number of numbers) {
-        total += number;
+const ArrayOfNumbersForSum = [2, 1, 6, 8, 20];
+let SumOfNumbers = (array) => {
+    let sum = 0;
+    for (let item of array) {
+        sum += item;
     }
-    return total;
+    return sum;
 }
-console.log(sum());
-// - створити функцію swap(arr,index1,index2). Функція міняє місцями занячення у відповідних індексах
+console.log(SumOfNumbers(ArrayOfNumbersForSum));
+// - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
-function swap(arr, index1, index2) {
+let swap = (arr, index1, index2) => {
     const numIndex1 = arr[index1];
     arr[index1] = arr[index2];
     arr[index2] = numIndex1;
 
     return arr;
 }
-
 console.log(swap([11, 22, 33, 44], 0, 1));
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
-// Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') => 250
-function exchange(sum, currencies, resultCurrency) {
+// Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+let exchange = (sum, currencies, resultCurrency) => {
     for (let cur of currencies) {
         if (cur.currency === resultCurrency) {
             return `${sum / cur.value} ${resultCurrency}`
@@ -131,7 +101,6 @@ function exchange(sum, currencies, resultCurrency) {
     }
     return 'Wrong currency!!!'
 }
-
 const currencies = [
     {currency: 'USD', value: 40},
     {currency: 'EUR', value: 42},
@@ -141,5 +110,5 @@ const currencies = [
     {currency: 'RE', value: 13},
     {currency: 'PL', value: 8},
 ]
-const result = exchange(10000, currencies, 'DD')
+const result = exchange(10000, currencies, 'EUR')
 console.log('result : ', result)

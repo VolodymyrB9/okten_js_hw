@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson 5">
+    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- renamed directory">
       <change afterPath="$PROJECT_DIR$/lesson_5/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,10 @@
       <workItem from="1692807209589" duration="2397000" />
       <workItem from="1692811589827" duration="128000" />
       <workItem from="1692811735185" duration="39000" />
-      <workItem from="1693232821944" duration="5965000" />
+      <workItem from="1693232821944" duration="6141000" />
+      <workItem from="1693309211313" duration="4145000" />
+      <workItem from="1693336364553" duration="29000" />
+      <workItem from="1693387726900" duration="7813000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -113,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692811766812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- add hw from lesson 5">
+      <option name="closed" value="true" />
+      <created>1693239635311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693239635312</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- renamed directory">
+      <option name="closed" value="true" />
+      <created>1693239753998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693239753998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +157,7 @@
     <MESSAGE value="- add hw from lesson_3" />
     <MESSAGE value="- refresh code" />
     <MESSAGE value="- add hw from lesson 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson 5" />
+    <MESSAGE value="- renamed directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="- renamed directory" />
   </component>
 </project>
