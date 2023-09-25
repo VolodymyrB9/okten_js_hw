@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>session</title>
+</head>
+<body>
+
+<div id="sessions-container"></div>
+
+<script>
+    const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
+    const sessionsContainer = document.getElementById('sessions-container');
+
+    sessions.forEach((session, index) => {
+        const sessionDiv = document.createElement('div');
+        sessionDiv.className = 'session';
+        const sessionText = document.createTextNode(`Session ${index + 1}: ${session.date}`);
+        sessionDiv.appendChild(sessionText);
+        sessionsContainer.appendChild(sessionDiv);
+
+    });
+</script>
+</body>
+</html>

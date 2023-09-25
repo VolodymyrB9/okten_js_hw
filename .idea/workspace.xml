@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson8">
-      <change afterPath="$PROJECT_DIR$/lesson_9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_9/main.js" afterDir="false" />
+    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson9">
+      <change afterPath="$PROJECT_DIR$/lesson_10/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/prj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_12/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_12/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_12/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_12/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +79,13 @@
       <workItem from="1693642678300" duration="994000" />
       <workItem from="1693646554402" duration="16021000" />
       <workItem from="1694421932565" duration="7231000" />
-      <workItem from="1694605062629" duration="8778000" />
+      <workItem from="1694605062629" duration="8801000" />
+      <workItem from="1694768166506" duration="12099000" />
+      <workItem from="1695402729181" duration="102000" />
+      <workItem from="1695403090251" duration="5674000" />
+      <workItem from="1695470041098" duration="6930000" />
+      <workItem from="1695490076965" duration="7041000" />
+      <workItem from="1695641426410" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -162,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694439358852</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- add hw from lesson9">
+      <option name="closed" value="true" />
+      <created>1694621261851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694621261851</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +211,7 @@
     <MESSAGE value="- add hw from lesson5 and finished hw 4" />
     <MESSAGE value="- add hw from lesson6" />
     <MESSAGE value="- add hw from lesson8" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson8" />
+    <MESSAGE value="- add hw from lesson9" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson9" />
   </component>
 </project>
