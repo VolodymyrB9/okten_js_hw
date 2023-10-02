@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson9">
-      <change afterPath="$PROJECT_DIR$/lesson_10/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/prj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/session.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_12/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_12/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_12/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_12/users.html" afterDir="false" />
+    <list default="true" id="2c800746-a6ce-4b2c-9041-3b24436b29ef" name="Changes" comment="- add hw from lesson12">
+      <change afterPath="$PROJECT_DIR$/mini_project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,20 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +85,8 @@
       <workItem from="1695403090251" duration="5674000" />
       <workItem from="1695470041098" duration="6930000" />
       <workItem from="1695490076965" duration="7041000" />
-      <workItem from="1695641426410" duration="4140000" />
+      <workItem from="1695641426410" duration="4187000" />
+      <workItem from="1695892152685" duration="41925000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -183,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694621261851</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- add hw from lesson12">
+      <option name="closed" value="true" />
+      <created>1695646838378</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695646838378</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +221,7 @@
     <MESSAGE value="- add hw from lesson6" />
     <MESSAGE value="- add hw from lesson8" />
     <MESSAGE value="- add hw from lesson9" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson9" />
+    <MESSAGE value="- add hw from lesson12" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add hw from lesson12" />
   </component>
 </project>
